@@ -1,0 +1,62 @@
+body {
+    background-color:#a9a9a9;
+}
+.bordertext{
+    display:block;
+    font-family: Quicksand;
+    font-size:35px;
+    text-align:center;
+    border: dotted red;
+}
+#title {
+    background-color: darkgreen;
+    text-align: center;
+    font-size: 72px;
+    font-family: Quicksand;
+}
+img{
+    float:right;
+    margin: 10px;
+    border:groove lightgreen;
+    transition: all 1s linear;
+}
+img:hover{
+    transform: scale(.9,.9)
+}
+#text {
+    float:left;
+    font-family: Quicksand;
+    color: green;
+    font-size:50px;
+}
+code {
+    text-align: center;
+    font-size: 15px;
+    color:white;
+    float:right;
+    transition: all 1s ease-in-out;
+}
+code:hover {
+    font-size: 20px;
+}
+.button {
+    display: block;
+    height: 100px;
+    width: 400px;
+    background: #006400;
+    font-family: Quicksand;
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    border: groove black;
+
+    margin: 3px;
+    transition: all 1s ease-in-out;
+    float:right;
+}
+a.button {
+    text-decoration: none;
+}
+.button:hover {
+    background: red;
+}

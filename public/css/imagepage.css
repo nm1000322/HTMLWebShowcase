@@ -1,0 +1,57 @@
+body {
+    background-color: darkgrey;
+}
+#title {
+    background-color: darkgreen;
+    text-align: center;
+    font-size: 72px;
+    font-family: Quicksand;
+}
+
+code {
+    text-align: center;
+    font-size: 25px;
+    color:white;
+    float:right;
+    transition: all 1s ease-in-out;
+}
+code:hover{
+    font-size:50px;
+
+}
+#duck2 {
+height:200px;
+}
+.button {
+    display: block;
+    height: 100px;
+    width: 400px;
+    background: #006400;
+    font-family: Quicksand;
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    border: groove black;
+    margin: 3px;
+    transition: all 1s ease-in-out;
+}
+a.button {
+    text-decoration:none;
+}
+.button:hover {
+    background:red;
+}
+img {
+    display: block;
+    margin: 10px;
+    border-radius:30px;
+    border: dotted #006400;
+    transition: all 1s linear;
+
+}
+img:hover{
+    transform: scale(.9,.9)
+}
+#mountain{
+    height:200px;
+}

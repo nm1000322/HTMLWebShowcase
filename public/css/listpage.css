@@ -1,0 +1,60 @@
+body{
+    background-color:darkgrey;
+}
+#title {
+    background-color: darkgreen;
+    text-align: center;
+    font-size: 72px;
+    font-family: Quicksand;
+}
+.ListTitles{
+ font-size:20px;
+ font-family:Quicksand;
+
+}
+ul li{
+    color:white;
+font-size:15px;
+font-family:Quicksand;
+transition: all 1s ease-in-out;
+}
+ul li:hover{
+    font-size:30px;
+}
+ol li{
+    color:white;
+    font-size:15px;
+    font-family:Quicksand;
+    transition: all 1s ease-in-out;
+}
+ol li:hover{
+    font-size:30px;
+}
+.button {
+    display: block;
+    height: 100px;
+    width: 400px;
+    background: #006400;
+    font-family: Quicksand;
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    border: groove black;
+    margin: 3px;
+    transition: all 1s ease-in-out;
+    float:left;
+}
+a.button {
+    text-decoration: none;
+}
+.button:hover {
+    background: red;
+}
+code {
+    font-size: 25px;
+    color:white;
+    transition: all 1s ease-in-out;
+}
+code:hover {
+    font-size: 50px;
+}

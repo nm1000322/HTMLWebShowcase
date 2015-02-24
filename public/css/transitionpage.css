@@ -1,0 +1,96 @@
+body{
+    background-color:#a9a9a9;
+}
+.button {
+    display: block;
+    height: 100px;
+    width: 400px;
+    background: #006400;
+    font-family: Quicksand;
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    border: groove black;
+    margin: 3px;
+    transition: all 1s ease-in-out;
+    float:right;
+}
+a.button {
+    text-decoration:none;
+}
+.button:hover {
+    background: red;
+}
+#title {
+    background-color: darkgreen;
+    text-align: center;
+    font-size: 72px;
+    font-family: Quicksand;
+}
+#howto{
+    font-family: Quicksand;
+    font-size:30px;
+    text-align:center;
+
+}
+#cube1{
+    display:block;
+    height:100px;
+    width:100px;
+    background:purple;
+    transition:all 1s cubic-bezier(.55,.53,.32,1.57);
+    border:groove;
+    margin: 15px;
+    font-family: Quicksand;
+    text-align:center;
+}
+#cube1:hover{
+    transform: rotate(90deg);
+    background:orange;
+
+}
+#cube2{
+   display:block;
+    width:100px;
+    height:100px;
+    background:greenyellow;
+    transition: all 1s linear;
+    margin: 15px;
+    border:groove;
+    font-family: Quicksand;
+    text-align:center;
+}
+#cube2:hover {
+    transform: rotate(90deg);
+    background:maroon;
+}
+#cube3{
+    display:block;
+    width:100px;
+    height:100px;
+    background:black;
+    transition: all 1s ease;
+    margin: 15px;
+    border:groove;
+    font-family: Quicksand;
+    text-align:center;
+    color:white;
+}
+
+#cube3:hover{
+    transform: rotate(90deg);
+    color: black;
+    background:white;
+
+
+}
+code {
+    text-align: right;
+    font-size: 15px;
+    color:white;
+    float:right;
+    transition: all 1s ease-in-out;
+}
+code:hover {
+    font-size: 25px;
+}

@@ -1,0 +1,47 @@
+body {
+    background-color:darkgrey;
+
+}
+#title {
+    background-color: darkgreen;
+    text-align: center;
+    font-size: 72px;
+    font-family: Quicksand;
+    border:groove #000000;
+    float:right;
+
+}
+.paragraph {
+    font-size: 25px;
+    text-align: center;
+    color:darkgreen;
+    margin: 30px;
+    font-family:Quicksand;
+
+}
+
+
+
+.button {
+    display: block;
+    height: 98px;
+    width: 400px;
+    background: #006400;
+    font-family: Quicksand;
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    border: groove black;
+    margin: 3px;
+    transition: all .5s ease-in-out;
+
+}
+a.button {
+    text-decoration:none;
+}
+.button:hover {
+    background:#ff0000;
+
+}
+
+

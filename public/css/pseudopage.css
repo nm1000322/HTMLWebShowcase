@@ -1,0 +1,80 @@
+body{
+    background-color: darkgrey;
+}
+code {
+    text-align: right;
+    font-size: 25px;
+    color:white;
+    float:right;
+    transition: all 1s ease-in-out;
+}
+code:hover {
+    font-size: 50px;
+}
+#title {
+    background-color: darkgreen;
+    text-align: center;
+    font-size: 72px;
+    font-family: Quicksand;
+}
+.button {
+    display: block;
+    height: 100px;
+    width: 400px;
+    background: #006400;
+    font-family: Quicksand;
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    border: groove black;
+    margin: 3px;
+    transition: all 1s ease-in-out;
+}
+a.button {
+    text-decoration:none;
+}
+.button:hover {
+    background: red;
+}
+input{
+    margin:15px;
+    display:block;
+    height:50px;
+    width:100px;
+}
+input:focus{
+    background:black;
+    border:groove;
+    color:white;
+
+}
+.text {
+    font-family:Quicksand;
+    font-size:25px;
+}
+#hover{
+    display:block;
+    height:100px;
+    width:100px;
+    background: cyan;
+    border: dashed white;
+    transition: all 1s ease;
+    margin:15px;
+    border-radius:5px;
+}
+#hover:hover{
+    transform: scale(1.2, 1.2);
+}
+#active{
+    display:block;
+    height:100px;
+    width:100px;
+    background: black;
+    margin:15px;
+    border-radius:5px;
+    border: dashed crimson;
+    transition: all 5s ease
+}
+#active:active{
+    transform: rotate(360deg);
+}

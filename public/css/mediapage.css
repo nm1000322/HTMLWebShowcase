@@ -1,0 +1,54 @@
+body {
+    background-color: darkgrey;
+}
+audio{
+    margin-left:auto;
+    margin-right:auto;
+}
+#title {
+    background-color: darkgreen;
+    text-align: center;
+    font-size: 72px;
+    font-family: Quicksand;
+}
+
+video{
+    margin-left:auto;
+    margin-right:auto;
+}
+code{
+    font-size: 13px;
+}
+.button{
+
+}
+code {
+    text-align: center;
+    font-size: 25px;
+    color:white;
+    float:right;
+    transition: all 1s ease-in-out;
+}
+code:hover {
+    font-size: 50px;
+}
+.button {
+    display: block;
+    height: 100px;
+    width: 400px;
+    background: #006400;
+    font-family: Quicksand;
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    border: groove black;
+    margin: 3px;
+    transition: all 1s ease-in-out;
+    float:right;
+}
+a.button {
+    text-decoration:none;
+}
+.button:hover {
+    background: red;
+}
